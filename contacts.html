@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Sanket</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #e0f7ff, #cceeff); /* Light blue gradient */
+            color: #003366; /* Deep blue for contrast */
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #0059b3; /* Strong blue */
+            text-shadow: 1px 1px 5px #b3d9ff;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        pre {
+            background-color: #d9f0ff; /* Light blue box */
+            color: #00264d;
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 20px auto;
+            font-size: 16px;
+            border: 2px solid #3399ff;
+            box-shadow: 0 0 15px rgba(51, 153, 255, 0.3);
+            white-space: pre-wrap;
+        }
+
+        a {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            animation: blink 2s linear infinite;
+        }
+
+        a:hover {
+            color: #333;
+            text-decoration: underline;
+        }
+
+        a.noblink {
+            animation: none;
+            text-decoration: underline;
+        }
+
+        a.blinking {
+            animation: blink 2s linear infinite; /* Slower blink for Instagram */
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin: 30px auto;
+            font-size: 18px;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px #99ccff, 0 0 10px #3399ff;
+            }
+            to {
+                text-shadow: 0 0 10px #cce6ff, 0 0 20px #66b3ff;
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 600px) {
+            pre {
+                margin: 15px;
+                padding: 15px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Contact</h1>
+
+    <pre>
+Mobile Number : 8882320480  
+Gmail : sanketkashyap05@gmail.com  
+Instagram : <a class="blinking" href="https://www.instagram.com/sanket_kashyap5?igsh=YzVwbGpxcWFjcDNx" target="_blank">Click here</a>
+    </pre>
+
+    <a class="back-link noblink" href="index.html">⬅ Back to Home</a>
+</body>
+</html>
